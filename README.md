@@ -10,4 +10,4 @@ Uses cryptography python module and fernet encryption for file data encryption a
 
 # encryptions used
 - fernet.py - fernet
-- AES,py - AES
+- AES.py - AES
