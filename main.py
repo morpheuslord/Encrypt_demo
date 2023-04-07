@@ -32,7 +32,7 @@ def save_key(fn, data):
 
 
 def main():
-    opt = input("(N)ew or (O)ld key? ")
+    opt = input("New or Old key? (N/O):")
     match opt.lower():
         case 'n':
             key = Fernet.generate_key()
@@ -40,14 +40,14 @@ def main():
         case 'o':
             key = input('Paste Key: ')
             key = key.encode('ASCII')
-    opt2 = input("(S)ave Key or (D)ont: ")
+    opt2 = input("Save Key or Dont (S/D): ")
     match opt2.lower():
         case 's':
             output_fn = input("Enter Key File name: ")
             save_key(output_fn, key)
         case 'd':
             pass
-    opt3 = input("(E)ncrypt or (D)ecrypt data? ")
+    opt3 = input("Encrypt or Decrypt data? (E/D): ")
     match opt3.lower():
         case 'e':
             file_n = input("Enter File name: ")
