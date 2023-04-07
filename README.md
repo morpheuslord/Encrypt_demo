@@ -7,3 +7,7 @@ Uses cryptography python module and fernet encryption for file data encryption a
 
 # Usage
 - Follow the prompts
+
+# encryptions used
+fernet.py - fernet
+AES,py - AES
