@@ -1,0 +1,6 @@
+autopep8==2.0.2
+cffi==1.15.1
+cryptography==40.0.1
+pycodestyle==2.10.0
+pycparser==2.21
+tomli==2.0.1
